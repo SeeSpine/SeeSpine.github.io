@@ -455,4 +455,5 @@ body{
 }
 .girl {
   width: 400px;
+  clip-path: circle();
 }
