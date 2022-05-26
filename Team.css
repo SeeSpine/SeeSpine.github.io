@@ -441,7 +441,7 @@
       max-width: 100%;
   }
 }
-.girl {
+.circle {
   width: 400px;
   clip-path: circle();
 }
