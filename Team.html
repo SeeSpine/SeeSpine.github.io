@@ -1,175 +1,248 @@
-<!DOCTYPE html>
-<html style="font-size: 16px;">
+<!doctype html>
+<html lang="en">
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="Meet The Team">
+    <meta name=" Expandport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <title>See Spine</title>
-    <link rel="icon" type="image/x-icon" href="images/logo3.png">
-    <link rel="stylesheet" href="nicepage.css" media="screen">
-<link rel="stylesheet" href="Team.css" media="screen">
-    <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
-    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
-    <meta name="generator" content="Nicepage 4.11.3, nicepage.com">
-    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
-    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>Album example · Bootstrap v5.1</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/album/">
+
     
+
+    <!-- Bootstrap core CSS -->
+<link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
     
-    
-    <script type="application/ld+json">{
-		"@context": "http://schema.org",
-		"@type": "Organization",
-		"name": "",
-		"logo": "images/transparent_notagline.png"
-}</script>
-    <meta name="theme-color" content="#478ac9">
-    <meta property="og:title" content="Team">
-    <meta property="og:type" content="website">
   </head>
-  <body class="u-body u-xl-mode"><header class="u-clearfix u-header u-header" id="sec-8e57"><a href="https://nicepage.com" class="u-image u-logo u-image-1" data-image-width="3168" data-image-height="2448">
-        <img src="images/transparent_notagline.png" class="u-logo-image u-logo-image-1">
-      </a><nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1">
-        <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px;">
-          <a class="u-button-style u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
-            <svg class="u-svg-link" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use></svg>
-            <svg class="u-svg-content" version="1.1" id="menu-hamburger" viewBox="0 0 16 16" x="0px" y="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"><g><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
-</g></svg>
-          </a>
-        </div>
-        <div class="u-custom-menu u-nav-container">
-          <ul class="u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Home.html" style="padding: 10px 20px;">Home</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Problem.html" style="padding: 10px 20px;">Problem</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Solution.html" style="padding: 10px 20px;">Solution</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Market.html" style="padding: 10px 20px;">Market</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Articles.html" style="padding: 10px 20px;">Articles</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Team.html" style="padding: 10px 20px;">Team</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Contact.html" style="padding: 10px 20px;">Contact</a>
-</li></ul>
-        </div>
-        <div class="u-custom-menu u-nav-container-collapse">
-          <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
-            <div class="u-inner-container-layout u-sidenav-overflow">
-              <div class="u-menu-close"></div>
-              <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Home.html">Home</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Problem.html">Problem</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Solution.html">Solution</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Market.html">Market</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Articles.html">Articles</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Team.html">Team</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Contact.html">Contact</a>
-</li></ul>
+  <body background="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F20%2F2021%2F09%2F10%2Ft-rex-2000.jpg&q=60" alt="A really scary dinorsaur (The pic was deleted)">
+    
+
+<header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="cover-container d-flex w-100 h-100 p-1 mx-auto ">
+        <header class="mb-auto">
+          <div>
+            <h3 class="float-md-start mb-0">Cover</h3>
+            <nav class="navbar fixed-top navbar-expand-lg" style ="background-color: #332b93;">
+              <div class="container-fluid py-0">
+                <nav class="collapse navbar-collapse justify-content-left " id="navbarNavAltMarkup">
+                  <nav class="navbar-nav">
+                    <a class="navbar-brand mt-3 mt-lg-0" href="#">
+                      <img
+                        src="images/logo2.png"
+                        height="15"
+                        alt="MDB Logo"
+                        loading="lazy"
+                      />
+                    </a>
+                    <a class="nav-link" aria-current="page" href="index.html" style="font-size: larger;">Home</a>
+                    <a class="nav-link" href="solution.html" style="font-size: larger;">Our Solution</a>
+                    <a class="nav-link" href="howItWorks.html" style="font-size: larger;">How it Works</a>
+                    <a class="nav-link" href="market.html" style="font-size: larger;">Market</a>
+                    <a class="nav-link" href="blog.html" style="font-size: larger;">Articles</a>
+                    <a class="nav-link" href="team.html" style="font-size: larger;">Team</a>
+                    <a class="nav-link" href="contact.html" style="font-size: larger;">Contact Us</a>
+                  </nav>
+                </nav>
+              </div>
+            </nav>
+      </div>
+    </nav>
+ 
+  </header>
+
+<main>
+
+  <section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light">Meet the Team</h1>
+        <p class="lead text-muted">Something short about our team and how awesome we are :).</p>
+          <a href="#" class="btn btn-primary my-2">Learn More</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="album py-5 bg-light">
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary"> Expand</button>
+                    
+                </div>
+  
+              </div>
             </div>
           </div>
-          <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
         </div>
-      </nav></header>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="first-slide" src = "images/photos/360.png" alt="First Slide"  preserveAspectRatio="xMidYMid slice">
 
-    <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="team.css">
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-      <title>Our-Team</title>
-  </head>
-    
-      <body>
-        <div class="container">
-          <div class="header">
-              <h1>Our Team</h1>
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary"> Expand</button>
+                    
+                </div>
+                 
+              </div>
+            </div>
           </div>
-          <div class="sub-container">
-              <div class="teams">
-                  <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD…MkS5KQ0rTKe0yZMP+jdcEhgZYKO0yZOyHByz5MmTJkozP/9k=" alt="">
-                  <div class="name">Dr. Jean Outlet</div>
-                  <div class="desig">President of the Canadian Pediatric Spine Society</div>
-                  <div class="about"> Surgeon at Montreal Children’s Hospital </div>
-    
-                  <div class="social-links">
-                      <a href="#"><i class="fa fa-facebook"></i></a>
-                      <a href="#"><i class="fa fa-instagram"></i></a>
-                      <a href="#"><i class="fa fa-twitter"></i></a>
-                  </div>
-              </div>
-    
-              <div class="teams">
-                  <img width = "100" src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F20%2F2021%2F09%2F10%2Ft-rex-2000.jpg&q=60" alt="A really scary dinorsaur (The pic was deleted)"/>
-                  <div class="name">Evan Dimentberg</div>
-                  <div class="desig">MD/MSc candidate at Université Laval</div>
-                  <div class="about">Investment Associate at Front Row Ventures </div>
-    
-                  <div class="social-links">
-                      <a href="https://www.facebook.com/JohnnyShriqui/" target="_blank"><i class="fa fa-facebook"></i></a>
-                      <a href="https://www.instagram.com/johnnyshriqui/" target="_blank"><i class="fa fa-instagram"></i></a>
-                      <a href="https://twitter.com/JohnnyShriqui" target="_blank"><i class="fa fa-twitter"></i></a>
-                  </div>
-              </div>
-    
-              <div class="teams">
-                  <img width="12.8" height="7.2" src="https://www.sportsnet.ca/wp-content/uploads/2021/05/IMG_3295.jpg" alt=""/>
-                  <div class="name"> Frank De Wijk </div>
-                  <div class="desig">CTO - CursorAM</div>
-                  <div class="about">Description about Frank</div>
-    
-                  <div class="social-links">
-                      <a href="#"><i class="fa fa-facebook"></i></a>
-                      <a href="#"><i class="fa fa-instagram"></i></a>
-                      <a href="#"><i class="fa fa-twitter"></i></a>
-                  </div>
-              </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
 
-              <div class="teams">
-                  <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD…MkS5KQ0rTKe0yZMP+jdcEhgZYKO0yZOyHByz5MmTJkozP/9k=" alt="">
-                  <div class="name"> Leander Goor </div>
-                  <div class="desig">CEO - CursorAM</div>
-                  <div class="about"> Description about Leander</div>
-    
-                  <div class="social-links">
-                      <a href="#"><i class="fa fa-facebook"></i></a>
-                      <a href="#"><i class="fa fa-instagram"></i></a>
-                      <a href="#"><i class="fa fa-twitter"></i></a>
-                  </div>
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary"> Expand</button>
+                    
+                </div>
+                 
               </div>
-
-              <div class="teams">
-                  <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD…MkS5KQ0rTKe0yZMP+jdcEhgZYKO0yZOyHByz5MmTJkozP/9k=" alt="">
-                  <div class="name">Cole Stotland</div>
-                  <div class="desig"> Web Development</div>
-                  <div class="about"> Industrial Engineering - University of Toronto </div>
-    
-                  <div class="social-links">
-                      <a href="#"><i class="fa fa-facebook"></i></a>
-                      <a href="#"><i class="fa fa-instagram"></i></a>
-                      <a href="#"><i class="fa fa-twitter"></i></a>
-                  </div>
-              </div>
-
-              <div class="teams">
-                  <img width = "100" src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F20%2F2021%2F09%2F10%2Ft-rex-2000.jpg&q=60" alt="A really scary dinorsaur (The pic was deleted)"/>
-                  <div class="name">Johnny Shriqui</div>
-                  <div class="desig">Web Development</div>
-                  <div class="about">Mechatronic Systems Engineering - Western University </div>
-    
-                  <div class="social-links">
-                      <a href="https://www.facebook.com/JohnnyShriqui/" target="_blank"><i class="fa fa-facebook"></i></a>
-                      <a href="https://www.instagram.com/johnnyshriqui/" target="_blank"><i class="fa fa-instagram"></i></a>
-                      <a href="https://twitter.com/JohnnyShriqui" target="_blank"><i class="fa fa-twitter"></i></a>
-                  </div>
-              </div>
-
-              <div class="teams">
-                  <img width = "100" src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F20%2F2021%2F09%2F10%2Ft-rex-2000.jpg&q=60" alt="A really scary dinorsaur (The pic was deleted)"/>
-                  <div class="name">Noah Gelbloom</div>
-                  <div class="desig">Web Development</div>
-                  <div class="about"> Software Engineering - Western University </div>
-    
-                  <div class="social-links">
-                      <a href="https://www.facebook.com/JohnnyShriqui/" target="_blank"><i class="fa fa-facebook"></i></a>
-                      <a href="https://www.instagram.com/johnnyshriqui/" target="_blank"><i class="fa fa-instagram"></i></a>
-                      <a href="https://twitter.com/JohnnyShriqui" target="_blank"><i class="fa fa-twitter"></i></a>
-                  </div>
-              </div>
+            </div>
           </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary"> Expand</button>
+                    
+                </div>
+                 
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary"> Expand</button>
+                    
+                </div>
+                 
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary"> Expand</button>
+                    
+                </div>
+                 
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary"> Expand</button>
+                    
+                </div>
+                 
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary"> Expand</button>
+                    
+                </div>
+                 
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary"> Expand</button>
+                    
+                </div>
+                 
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+    </div>
+  </div>
+
+</main>
+
+
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+      
   </body>
 </html>
