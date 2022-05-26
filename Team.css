@@ -442,6 +442,6 @@
   }
 }
 .circle {
-  width: 500px;
+  width: 999999px;
   clip-path: circle();
 }
