@@ -449,6 +449,5 @@
 }
 
 .circle {
-  width: 999999999999999px;
   clip-path: circle();
 }
