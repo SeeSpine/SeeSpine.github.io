@@ -96,6 +96,25 @@
   margin: 19px 1px 0;
 }
 
+.social-links {
+  margin: 14px;
+}
+
+.social-links a {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  transition: .4s;
+}
+
+.social-links a:hover {
+  transform: scale(1.5);
+}
+
+.social-links a i {
+  color: #444;
+}
+
 @media (max-width: 1199px) {
   .u-section-1 .u-repeater-1 {
     min-height: 396px;
