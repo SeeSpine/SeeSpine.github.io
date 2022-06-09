@@ -383,10 +383,11 @@
 .teams {
   margin: 10px;
   padding: 22px;
+  width:30%;
   cursor: pointer;
   transition: 0.4s;
   box-sizing: border-box;
-  width: 30%;
+
 }
 
 .teams:hover {
