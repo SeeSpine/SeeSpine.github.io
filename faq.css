@@ -16,7 +16,7 @@ body {
   min-height: 100vh;
 }
 
-.container {
+.cont {
   margin: 0 auto;
   padding: 4rem;
   width: 48rem;
@@ -91,7 +91,7 @@ body {
 }
 .accordion button[aria-expanded=true] + .accordion-content {
   opacity: 1;
-  max-height: 9em;
+  max-height: 90em;
   transition: all 200ms linear;
   will-change: opacity, max-height;
 }
